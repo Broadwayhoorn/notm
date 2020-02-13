@@ -7,14 +7,14 @@ body {
 }
 body:after {
     content: "";
-    background-image: url(img/music-bar-background-min.png);
+    background-image: url(../img/music-bar-background-min.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     background-attachment: fixed;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
