@@ -31,7 +31,9 @@ pre {
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+	color: #f7f7bc;
 }
+a:hover {color: #e8c33a;}
 abbr[title] {
     border-bottom: none;
     text-decoration: underline;
