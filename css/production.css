@@ -5,6 +5,20 @@
 body {
     margin: 0;
 }
+body:after {
+    content: "";
+    background-image: url(img/music-bar-background-min.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    background-attachment: fixed;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 article, aside, footer, header, nav, section {
     display: block;
 }
