@@ -377,6 +377,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-color: #4c83ff;
     border-color: #4c83ff;
     color: #fff;
+    white-space: inherit;
 }
 .btn--default:focus, .btn--default:hover {
     background-color: #1960ff;
